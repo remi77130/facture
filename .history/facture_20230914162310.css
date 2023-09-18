@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+.client-info
+{
+    border: 5px solid red;
+}
+
+.client-info h1{
+    color: blue;
+    font-size: 2em;
+}

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.header
+{
+    border: 5px solid red;
+}
+.client-info
+{
+    border: 5px solid red;
+}
+
+.client-info h1{
+    color: blue;
+    font-size: 2em;
+}
+
+.client-info input{
+    border: 5px solid red;
+    width: 200px;
+}
+
+.container_client_info
+{
+    border: 5px solid red;
+    background-color: yellowgreen;
+}

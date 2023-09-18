@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+table 
+
+{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+table, th, td 
+{
+
+    border: 1px solid black;
+
+}
+
+th, td 
+{
+   
+    padding: 8px;
+    text-align: left;
+
+}
+
+form 
+{
+
+    margin-bottom: 20px;
+
+}
+
+
+.header
+{
+   
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container_client
+{
+
+    border: 5px solid pink;
+    width: 35%;
+
+}
+
+.container_est
+{ 
+
+    border: 5px solid forestgreen;
+    width: 35%;
+
+}
