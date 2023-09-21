@@ -161,14 +161,14 @@
     doc.text(code_client, 150, 58);
 
 
-    doc.rect(2, 30, 60, 30); // x, y, largeur, hauteur border 'top left'
+    doc.rect(2, 2, 60, 30); // x, y, largeur, hauteur border 'top left'
 
 
     // Mise en page : Informations de l'entreprise en haut à gauche
     doc.text(nomEntreprise, 4, 8);
     doc.text(adresseEntreprise, 4, 13);
 
-    doc.roundedRect(148, 2, 60, 70, 2,2,2,2); // x, y, largeur, hauteur, rayon de coins arrondis
+    doc.roundedRect(148, 2, 60, 100, 2,2,2,2); // x, y, largeur, hauteur, rayon de coins arrondis
 
 
 

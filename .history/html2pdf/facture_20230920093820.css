@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+b {
+    color: rgb(97, 254, 0);
+    font-size: 32px;
+}
+
+
+.img
+{
+
+   width: 100px;
+   border-radius: 5px;
+
+}

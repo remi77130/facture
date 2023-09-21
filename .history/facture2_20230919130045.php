@@ -161,7 +161,7 @@
     doc.text(code_client, 150, 58);
 
 
-    doc.rect(2, 30, 60, 30); // x, y, largeur, hauteur border 'top left'
+    doc.rect(2, 25, 60, 30); // x, y, largeur, hauteur border 'top left'
 
 
     // Mise en page : Informations de l'entreprise en haut à gauche

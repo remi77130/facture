@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+b {
+    color: rgb(97, 254, 0);
+    font-size: 32px;
+}
+
+.container_img
+{
+    border: 5px solid forestgreen;
+    border-radius: 10px;
+}
+.logo_facture
+{
+
+   width: 100%;
+}
+
+.header
+{
+    border: 10px solid goldenrod;
+}

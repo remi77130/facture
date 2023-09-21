@@ -1,0 +1,9 @@
+b {
+    color: rgb(97, 254, 0);
+    font-size: 32px;
+}
+
+.container_img
+{
+    border: 5px solid red;
+}

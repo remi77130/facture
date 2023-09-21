@@ -142,6 +142,10 @@
     var prix_produit = document.getElementById("prix_produit").value;
 
 
+              // Intégrer le logo (remplacez "chemin/vers/votre-logo.png" par le chemin de votre logo)
+    var logoData = "C:\wamp64\www\facture\noun-bold-3689118.svg";
+    doc.addImage(logoData, "PNG", 14, 70, 60, 20); // x, y, largeur, hauteur
+
     
     // Default export is a4 paper, portrait, using millimeters for units
 
@@ -161,7 +165,7 @@
     doc.text(code_client, 150, 58);
 
 
-    doc.rect(2, 30, 60, 30); // x, y, largeur, hauteur border 'top left'
+    doc.rect(2, 2, 60, 30); // x, y, largeur, hauteur border 'top left'
 
 
     // Mise en page : Informations de l'entreprise en haut à gauche
@@ -180,6 +184,10 @@
     doc.text("Nombre de produits : " + nombre_produits, 10, 105);
     doc.text("Prix du produit : " + prix_produit, 10, 110); 
     
+    doc.addImage("logoData", "PNG", 140, 70, 60, 20); // x, y, largeur, hauteur
+
+
+   
 
     // Ajouter une nouvelle page pour la facture (si nécessaire)
     // doc.addPage();

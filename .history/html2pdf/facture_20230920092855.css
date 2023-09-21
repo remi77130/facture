@@ -1,0 +1,17 @@
+b {
+    color: rgb(97, 254, 0);
+    font-size: 32px;
+}
+
+.container_img
+{
+    border: 5px solid rgb(0, 234, 255);
+}
+
+.img_facture
+{
+
+   width: 100px;
+   border: 5px solid red;
+
+}

@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+b
+{
+    font-size: 32px;
+     font-weight: bold;
+}
+
+.container_img
+{
+    border: 5px solid forestgreen;
+    border-radius: 10px;
+    width: 85px;
+}
+
+.logo_facture
+{
+
+   width: 100%;
+}
+
+.header_info
+{
+    border: 1px solid goldenrod;
+
+}
+.container_contenteditable {
+    display: inline;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border: solid #ccc 1px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    min-width: 30px;
+    min-height: 15px;
+    color: red
+}
+
+
+.info_ETS
+{
+    border: 5px solid rebeccapurple;
+}
+
+.header input
+{
+    border: none;
+    box-shadow: 1px 1px 5px #bfbfbf;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+.container_info
+{
+    border: 5px solid green;
+}
+
+.container_info_client
+{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 200px;
+
+}
+

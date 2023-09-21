@@ -95,7 +95,6 @@
     <label for="prix-produit">Prix du produit :</label>
     <input type="number" step="0.01" id="prix_produit" required><br>
 
-   
 <form>
 
 
@@ -129,7 +128,8 @@
     var facture_numero = document.getElementById("facture_numero").value;
     var code_client = document.getElementById("code_client").value;
 
- // Intégrer une image
+
+
 
 
     var nomEntreprise = document.getElementById("nom-entreprise").value;
@@ -140,6 +140,8 @@
     var reference_produit = document.getElementById("reference_produit").value;
     var nombre_produits = document.getElementById("nombre_produits").value;
     var prix_produit = document.getElementById("prix_produit").value;
+
+
 
 
     
@@ -161,7 +163,7 @@
     doc.text(code_client, 150, 58);
 
 
-    doc.rect(2, 30, 60, 30); // x, y, largeur, hauteur border 'top left'
+    doc.rect(2, 2, 60, 30); // x, y, largeur, hauteur border 'top left'
 
 
     // Mise en page : Informations de l'entreprise en haut à gauche
@@ -178,8 +180,12 @@
     
 
     doc.text("Nombre de produits : " + nombre_produits, 10, 105);
-    doc.text("Prix du produit : " + prix_produit, 10, 110); 
-    
+    doc.text("Prix du produit : " + prix_produit, 10, 110);
+
+
+   // Intégrer une image
+   var imgData = "img_01.jpg"; // Remplacez par le chemin de votre image
+    doc.addImage(imgData, "JPEG", 10, 125, 90, 60); // x, y, largeur, hauteur
 
     // Ajouter une nouvelle page pour la facture (si nécessaire)
     // doc.addPage();

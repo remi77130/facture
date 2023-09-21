@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+b
+{
+    font-size: 32px;
+     font-weight: bold;
+}
+
+.container_img
+{
+    border: 5px solid forestgreen;
+    border-radius: 10px;
+    width: 85px;
+}
+
+.logo_facture
+{
+
+   width: 100%;
+}
+
+.header
+{
+    border: 5px solid goldenrod;
+}
+
+.header input
+{
+    border: none;
+    box-shadow: 1px 1px 5px #bfbfbf;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+.container_info
+{
+    border: 5px solid green;
+}
+
+.container_info_client
+{
+    border: 5px solid red;
+    width: 200px;
+
+}
+
+.ets
+{
+    margin-left: 80%;
+}

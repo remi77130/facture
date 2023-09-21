@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+b {
+    color: rgb(97, 254, 0);
+    font-size: 32px;
+}
+
+
+.img
+{
+
+   width: 50px;
+   border-radius: 5px;
+
+}
+
+.header
+{
+    border: 10px solid goldenrod;
+}
