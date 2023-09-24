@@ -5,6 +5,10 @@ use Spipu\Html2Pdf\Html2Pdf;
 
 $html2pdf = new Html2Pdf();
 
+$_POST = [
+    'client_nom' => 'Kévin', 
+    'client_ville' => 'Antibes'
+];
 
 ob_start();
 include 'facture.php';

@@ -93,7 +93,7 @@
 
                 (ci-après désignée "l'Entreprise") <br> <br> 
                 
-                D'une part et ${civilite_salarie} ${nom_salarie}
+                D'une part et ${civilite_salarie}
 
 
 

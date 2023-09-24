@@ -6,6 +6,7 @@ use Spipu\Html2Pdf\Html2Pdf;
 $html2pdf = new Html2Pdf();
 
 
+
 ob_start();
 include 'facture.php';
 $output = ob_get_contents();

@@ -40,16 +40,7 @@
      
            agissant en qualité d'employeur <br> <br>
 
-           (ci-après désignée "l'Entreprise") D'une part, et 
-        
-           <select id="civilite_salarie" required>
-            <option value="Mr">Mr</option>
-            <option value="Mme">Mme</option> 
-            <option value="Mlle">Mlle</option>
-        </select> 
-        
-        <input type="text" id="nom_salarie" placeholder="Nom du salarié">
-
+           (ci-après désignée "l'Entreprise")
 
 
 
@@ -75,10 +66,6 @@
             var adresse_entreprise = document.getElementById("adresse_entreprise").value;
             var civilite = document.getElementById("civilite").value;
             var nom_employeur = document.getElementById("nom_employeur").value;
-            var civilite_salarie = document.getElementById("civilite_salarie").value;
-            var nom_salarie = document.getElementById("nom_salarie").value;
-
-            
             
 
 
@@ -91,9 +78,7 @@
                 
                 agissant en qualité d'employeur. <br> <br>
 
-                (ci-après désignée "l'Entreprise") <br> <br> 
-                
-                D'une part et ${civilite_salarie} ${nom_salarie}
+                (ci-après désignée "l'Entreprise")
 
 
 

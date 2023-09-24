@@ -4,7 +4,15 @@
     <title>Création de Contrat de Travail</title>
 </head>
 <body>
-  
+    <h1>Entrez les informations du contrat</h1>
+
+
+
+
+
+
+
+
     <form id="contratForm">
 
 
@@ -18,9 +26,11 @@
         <option value="plien">plien</option>
         <option value="partiel">partiel</option>
            
-</select><br>
+        </select><br>
 
-    </h2>
+
+
+</h2>
        <p>
         
        L'entreprise <input type="text" id="Nom_entreprise" 
@@ -34,22 +44,12 @@
             <option value="Mme">Mme</option> 
             <option value="Mlle">Mlle</option>
         </select>
-
         <input type="text" id="nom_employeur" placeholder="Nom et preénom employeur">
 
      
            agissant en qualité d'employeur <br> <br>
 
-           (ci-après désignée "l'Entreprise") D'une part, et 
-        
-           <select id="civilite_salarie" required>
-            <option value="Mr">Mr</option>
-            <option value="Mme">Mme</option> 
-            <option value="Mlle">Mlle</option>
-        </select> 
-        
-        <input type="text" id="nom_salarie" placeholder="Nom du salarié">
-
+           (ci-après désignée "l'Entreprise")
 
 
 
@@ -74,11 +74,8 @@
             var Nom_entreprise = document.getElementById("Nom_entreprise").value;
             var adresse_entreprise = document.getElementById("adresse_entreprise").value;
             var civilite = document.getElementById("civilite").value;
+            var nombre = document.getElementById("nombre").value;
             var nom_employeur = document.getElementById("nom_employeur").value;
-            var civilite_salarie = document.getElementById("civilite_salarie").value;
-            var nom_salarie = document.getElementById("nom_salarie").value;
-
-            
             
 
 
@@ -89,13 +86,8 @@
                 <p>L'entreprise ${Nom_entreprise} dont le siège social est situé à 
                 ${adresse_entreprise}, représentée par ${civilite} ${nom_employeur}
                 
-                agissant en qualité d'employeur. <br> <br>
-
-                (ci-après désignée "l'Entreprise") <br> <br> 
-                
-                D'une part et ${civilite_salarie} ${nom_salarie}
-
-
+                agissant en qualité d'employeur
+                <p>Vous avez :${nombre} ans</p>
 
 
                 <!-- Autres parties du contrat -->

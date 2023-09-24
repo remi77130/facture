@@ -8,6 +8,8 @@
     <form id="contratForm">
 
 
+    <h2 class="container_mobile" style="width:600px;border:solid #000000 1px;padding:10px 10px 10px 10px;margin:40px 0px 20px 0px;font-size:15px;font-weight:bold;color:#000000;text-transform:uppercase;text-align:center;float:left;">CONTRAT DE TRAVAIL À DURÉE INDÉTERMINÉE (CDI) À TEMPS <select class="select_lettre temps" onchange="verifier_select_lettre(event, this, 'temps', 'temps');"><option>plein</option><option>partiel</option></select></h2> <br>
+
  <h2>Contrat de travail à durée 
  <select id="contrat_type" required>
         <option value="determine">détérminé</option>
@@ -20,7 +22,7 @@
            
 </select><br>
 
-    </h2>
+</h2>
        <p>
         
        L'entreprise <input type="text" id="Nom_entreprise" 
@@ -40,16 +42,7 @@
      
            agissant en qualité d'employeur <br> <br>
 
-           (ci-après désignée "l'Entreprise") D'une part, et 
-        
-           <select id="civilite_salarie" required>
-            <option value="Mr">Mr</option>
-            <option value="Mme">Mme</option> 
-            <option value="Mlle">Mlle</option>
-        </select> 
-        
-        <input type="text" id="nom_salarie" placeholder="Nom du salarié">
-
+           (ci-après désignée "l'Entreprise")
 
 
 
@@ -75,10 +68,6 @@
             var adresse_entreprise = document.getElementById("adresse_entreprise").value;
             var civilite = document.getElementById("civilite").value;
             var nom_employeur = document.getElementById("nom_employeur").value;
-            var civilite_salarie = document.getElementById("civilite_salarie").value;
-            var nom_salarie = document.getElementById("nom_salarie").value;
-
-            
             
 
 
@@ -91,9 +80,7 @@
                 
                 agissant en qualité d'employeur. <br> <br>
 
-                (ci-après désignée "l'Entreprise") <br> <br> 
-                
-                D'une part et ${civilite_salarie} ${nom_salarie}
+                (ci-après désignée "l'Entreprise")
 
 
 

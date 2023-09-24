@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Affichage du Texte</title>
+</head>
+<body>
+    <h1>Votre texte enregistré</h1>
+    <p id="phraseAffichee"></p>
+
+    <script>
+        // Récupérer le texte enregistré depuis le stockage local
+        var texteEnregistre = localStorage.getItem("texteUtilisateur");
+        var texteEnregistre = localStorage.getItem("texteUtilisateur2");
+        
+        // Afficher le texte enregistré
+        var phraseAffichee = document.getElementById("phraseAffichee");
+        phraseAffichee.textContent = "Votre texte : " + texteEnregistre;
+    </script>
+</body>
+</html>

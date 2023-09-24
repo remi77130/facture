@@ -4,23 +4,33 @@
     <title>Création de Contrat de Travail</title>
 </head>
 <body>
-  
+    <h1>Entrez les informations du contrat</h1>
+
+
+
+
+
+
+
+
     <form id="contratForm">
 
 
  <h2>Contrat de travail à durée 
  <select id="contrat_type" required>
         <option value="determine">détérminé</option>
-        <option value="indetermine">indétérminé</option>
+        <option value="indetermine">IND2T2RMIN2E</option>
 </select>
            à temps
 <select id="temps_contrat" required>
         <option value="plien">plien</option>
         <option value="partiel">partiel</option>
            
-</select><br>
+        </select><br>
 
-    </h2>
+
+
+</h2>
        <p>
         
        L'entreprise <input type="text" id="Nom_entreprise" 
@@ -34,24 +44,20 @@
             <option value="Mme">Mme</option> 
             <option value="Mlle">Mlle</option>
         </select>
-
         <input type="text" id="nom_employeur" placeholder="Nom et preénom employeur">
 
      
-           agissant en qualité d'employeur <br> <br>
+           agissant en qualité d'employeur
 
-           (ci-après désignée "l'Entreprise") D'une part, et 
-        
-           <select id="civilite_salarie" required>
-            <option value="Mr">Mr</option>
-            <option value="Mme">Mme</option> 
-            <option value="Mlle">Mlle</option>
-        </select> 
-        
-        <input type="text" id="nom_salarie" placeholder="Nom du salarié">
-
-
-
+          <!-- Champ de sélection pour choisir un nombre entre 1 et 5 -->
+          <label for="nombre">Votre age :</label>
+        <select id="nombre" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><br>
 
         <!-- Autres informations du contrat -->
 </p>
@@ -74,11 +80,8 @@
             var Nom_entreprise = document.getElementById("Nom_entreprise").value;
             var adresse_entreprise = document.getElementById("adresse_entreprise").value;
             var civilite = document.getElementById("civilite").value;
+            var nombre = document.getElementById("nombre").value;
             var nom_employeur = document.getElementById("nom_employeur").value;
-            var civilite_salarie = document.getElementById("civilite_salarie").value;
-            var nom_salarie = document.getElementById("nom_salarie").value;
-
-            
             
 
 
@@ -89,13 +92,8 @@
                 <p>L'entreprise ${Nom_entreprise} dont le siège social est situé à 
                 ${adresse_entreprise}, représentée par ${civilite} ${nom_employeur}
                 
-                agissant en qualité d'employeur. <br> <br>
-
-                (ci-après désignée "l'Entreprise") <br> <br> 
-                
-                D'une part et ${civilite_salarie} ${nom_salarie}
-
-
+                agissant en qualité d'employeur
+                <p>Vous avez :${nombre} ans</p>
 
 
                 <!-- Autres parties du contrat -->
