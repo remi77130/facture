@@ -3,7 +3,6 @@
 <html>
 <head>
     <title>Affichage du Texte</title>
-    <link rel="stylesheet" href="facture.css">
 </head>
 <body>
 

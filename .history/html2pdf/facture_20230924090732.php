@@ -138,7 +138,6 @@
             var civilite_salarie = document.getElementById("civilite_salarie").value;
             var nom_salarie = document.getElementById("nom_salarie").value;
             var nmb_age = document.getElementById("nmb_age").value;
-            var mois_naissance_salarie = document.getElementById("mois_naissance_salarie").value;
 
             
             
@@ -150,12 +149,12 @@
                 <p>Entre les soussignés : </p>
                 <p>L'entreprise ${Nom_entreprise} dont le siège social est situé à 
                 ${adresse_entreprise}, représentée par ${civilite} ${nom_employeur}
+                
                 agissant en qualité d'employeur. <br> <br>
 
                 (ci-après désignée "l'Entreprise") <br> <br> 
                 
-                D'une part et ${civilite_salarie} ${nom_salarie} né le ${nmb_age} 
-                ${mois_naissance_salarie}
+                D'une part et ${civilite_salarie} ${nom_salarie} né le ${nmb_age}
 
 
 

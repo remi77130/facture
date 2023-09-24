@@ -1,12 +1,11 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Affichage du Texte</title>
-    <link rel="stylesheet" href="facture.css">
 </head>
 <body>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
 
     <h1>Contrat de travail généré</h1>
 

@@ -50,7 +50,7 @@
             <option value="Mlle">Mlle</option>
         </select> 
         
-        <input type="text" id="nom_salarie" placeholder="Nom du salarié" require >, né le 
+        <input type="text" id="nom_salarie" placeholder="Nom du salarié">, né le 
 
         <select id="nmb_age" required>
             <option value="1">1</option>
@@ -87,24 +87,6 @@
            
         </select> 
 
-        <select id="mois_naissance_salarie" require>
-
-        <option value="janvier">janvier</option>
-        <option value="fevrier">fevrier</option>
-        <option value="mars">mars</option>
-        <option value="avril">avril</option>
-        <option value="mai">mai</option>
-        <option value="juin">juin</option>
-        <option value="juillet">juillet</option>
-        <option value="aout">aout</option>
-        <option value="septembre">septembre</option>
-        <option value="octobre">octobre</option>
-        <option value="novembre">novembre</option>
-        <option value="decembre">decembre</option>
-
-
-        </select>
-
 
 
 
@@ -138,7 +120,6 @@
             var civilite_salarie = document.getElementById("civilite_salarie").value;
             var nom_salarie = document.getElementById("nom_salarie").value;
             var nmb_age = document.getElementById("nmb_age").value;
-            var mois_naissance_salarie = document.getElementById("mois_naissance_salarie").value;
 
             
             
@@ -150,12 +131,12 @@
                 <p>Entre les soussignés : </p>
                 <p>L'entreprise ${Nom_entreprise} dont le siège social est situé à 
                 ${adresse_entreprise}, représentée par ${civilite} ${nom_employeur}
+                
                 agissant en qualité d'employeur. <br> <br>
 
                 (ci-après désignée "l'Entreprise") <br> <br> 
                 
-                D'une part et ${civilite_salarie} ${nom_salarie} né le ${nmb_age} 
-                ${mois_naissance_salarie}
+                D'une part et ${civilite_salarie} ${nom_salarie} né le ${nmb_age}
 
 
 
